@@ -1,0 +1,89 @@
+{
+    "max_version": "9.3.0",
+    "splash_content": [
+        {
+            "menu_title": "Top 2 updates 🔥",
+            "title": "DISCOVER 2 AWESOME FEATURES AVAILABLE",
+            "articles": [
+                {
+                    "title": "🔥 Simplification of the bounce handling",
+                    "desc": "We improved the way the bounce handling configuration is presented, regrouping everything you need under the bounce handling configuration tab."
+                },
+                {
+                    "title": "🔥 Unsubscribe from all lists",
+                    "desc": "An 'Unsubscribe from all lists' link can be inserted in the email editor, allowing receivers to unsubscribe with one click from all the campaign lists they are subscribed to."
+                }
+            ]
+        },
+        {
+            "menu_title": "Bug Fixes 🛠️",
+            "title": "DISCOVER WHAT CHANGED FOR BUG FIXES",
+            "articles": [
+                {
+                    "title": "🛠️ Automations field values refreshing",
+                    "desc": "The fields using a multiple select now correctly show the saved value for filters in the segments and automations."
+                },
+                {
+                    "title": "🛠️ Thumbnail saving in templates",
+                    "desc": "The send test button from the template edition page was not taking Save Thumbnail configuration option into account."
+                },
+                {
+                    "title": "🛠️ Resend multilingual campaigns",
+                    "desc": "We fixed an issue for the multilingual campaigns when resending them to new users only."
+                },
+                {
+                    "title": "🛠️ Automation email creation",
+                    "desc": "When using the 'add an email into the queue' action in an automation, starting from an existing email was only showing the template instead of the existing campaigns."
+                },
+                {
+                    "title": "🛠️ Resend confirmation email action",
+                    "desc": "The 'Resend confirmation email' action was sending the email twice if the click tracking was enabled."
+                }
+            ]
+        },
+        {
+            "menu_title": "Joomla 🧩 ",
+            "title": "DISCOVER WHAT CHANGED FOR JOOMLA",
+            "articles": [
+                {
+                    "title": "🧩 CLI extension installation",
+                    "desc": "An error could happen when trying to install or update AcyMailing using the CLI for Joomla 4 and higher."
+                },
+                {
+                    "title": "🧩 Front-end listing actions",
+                    "desc": "The front-end listing actions couldn't be executed when the Joomla SEF option was disabled."
+                }
+            ]
+        },
+        {
+            "menu_title": "Miscellaneous 🎁",
+            "title": "DISCOVER WHAT CHANGED IN GENERAL",
+            "articles": [
+                {
+                    "title": "🎁 Gmail specific email header",
+                    "desc": "We added the List-Unsubscribe-Post=One-Click header to the sent emails containing an unsubscribe link to follow the Gmail guidance and therefore reduce the effect of anti-SPAM filters."
+                },
+                {
+                    "title": "🎁 AcyMailing sending service credits message",
+                    "desc": "We improved the 'Remaining credits' message when no credits were used with the AcyMailing sending service."
+                },
+                {
+                    "title": "🎁 Export unsubscribe date",
+                    "desc": "You can now export the unsubscribe date when exporting subscribers."
+                },
+                {
+                    "title": "🎁 Subscribers actions rewording",
+                    "desc": "The wording of the 'Choose an action' drop-down menu in the Subscribers listing has been improved, making it more consistent."
+                },
+                {
+                    "title": "🎁 Additional security",
+                    "desc": "A security has been added on the Universal filter add-on for the SQL request filter, adding the ; character at the end of the request."
+                },
+                {
+                    "title": "🎁 REST API messages improved",
+                    "desc": "We changed an API error message when trying to subscribe or unsubscribe non-existing users."
+                }
+            ]
+        }
+    ]
+}
