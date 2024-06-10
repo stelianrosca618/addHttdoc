@@ -1,4 +1,5 @@
 <?php
+
 /**
  * @package    Joomla.Site
  *
@@ -35,6 +36,7 @@ if (!defined('_JDEFINES'))
 {
 	define('JPATH_BASE', __DIR__);
 	require_once JPATH_BASE . '/includes/defines.php';
+	
 }
 
 require_once JPATH_BASE . '/includes/framework.php';
@@ -44,6 +46,6 @@ JDEBUG ? JProfiler::getInstance('Application')->setStart($startTime, $startMem)-
 
 // Instantiate the application.
 $app = JFactory::getApplication('site');
-
+// die(implode(DIRECTORY_SEPARATOR, $parts));
 // Execute the application.
 $app->execute();

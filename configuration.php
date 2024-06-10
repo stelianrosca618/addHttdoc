@@ -36,8 +36,10 @@ class JConfig {
 	public $host = 'localhost';
 	public $lifetime = '15';
 	public $list_limit = '50';
-	public $live_site = 'http://www.keurmerkgoz.nl';
-	public $log_path = '/home/keurmer1/public_html/administrator/logs';
+	// public $live_site = 'http://www.keurmerkgoz.nl';
+	public $live_site = 'http://localhost';
+	// public $log_path = '/home/keurmer1/public_html/administrator/logs';
+	public $log_path = './administrator/logs';
 	public $mailer = 'mail';
 	public $mailfrom = 'info@keurmerkgoz.nl';
 	public $memcache_compress = '0';
@@ -49,7 +51,8 @@ class JConfig {
 	public $offline_message = 'This site is down for maintenance.<br /> Please check back again soon.';
 	public $offset = 'UTC';
 	public $offset_user = 'UTC';
-	public $password = '0b2Vq9pBpLnR';
+	// public $password = '0b2Vq9pBpLnR';
+	public $password = '';
 	public $robots = '';
 	public $secret = '9DyhsD4H0GrC0Ms8X7buTalwi2zBF2jC';
 	public $sef = '1';
@@ -65,9 +68,11 @@ class JConfig {
 	public $smtpport = '25';
 	public $smtpsecure = 'none';
 	public $smtpuser = '';
-	public $tmp_path = '/home/keurmer1/public_html/tmp';
+	// public $tmp_path = '/home/keurmer1/public_html/tmp';
+	public $tmp_path = './tmp';
 	public $unicodeslugs = '0';
-	public $user = 'keurmer1_goz01';
+	// public $user = 'keurmer1_goz01';
+	public $user = 'root';
 	public $mailonline = '1';
 	public $memcached_persist = '1';
 	public $memcached_compress = '0';
